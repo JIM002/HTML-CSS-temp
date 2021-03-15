@@ -1,0 +1,249 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header-div{
+    background-color: #61CD00;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar{
+    overflow: hidden;
+}
+
+.nav-icon{
+    float: left;
+    overflow: hidden;
+}
+.nav-icon a{
+    display: inline-block;
+    padding: 15px 0 0 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-icon a:hover{
+    color: gray;
+}
+
+.top-right-navbar{
+    float: right;
+    overflow: hidden;
+}
+
+.navbar-right li{
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.navbar-right li a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
+
+.navbar-right li a:hover{
+    color: rgb(231, 228, 6);    
+}
+
+.mainpage h1{
+    text-align: center;
+    color: #61CD00;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.mainpage p{
+    text-align: center;
+    padding: 0 25% 0 25%;
+}
+
+.branding{
+    padding: 0 40px 0 40px;
+    overflow: hidden;
+    
+}
+
+.discuss h1{
+    color: #61CD00;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.discuss a{
+    font-size: 35px;
+    color: #d13939;
+    border: 1px solid #999b97;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 13px 10px 13px;
+    background-color: rgb(92, 187, 241);
+    overflow: hidden;
+}
+
+.discuss a:hover{
+    color: #191a19f1;
+    background-color: #afb4b4;
+    overflow: hidden;
+}
+
+.phone p{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #5d615b;
+}
+
+.features{
+    background: rgb(243, 241, 241);
+    padding: 3em 0 3em 0;
+}
+.main_heading h1{
+    text-align: center; 
+    color: #61CD00;   
+}
+
+.feature-div{
+    text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.feature-div:hover{
+    margin-top: -10px;
+}
+.feature-div i{
+    font-size: 35px;
+    font-weight: 300;
+    color: #61CD00;
+}
+
+.feature-details{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.feature-details ul{
+    margin-left: 30px;
+    padding: 0;
+}
+
+.feature-details ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+}
+
+.more-feature-div{
+    background-color: #fff;
+    
+    overflow: hidden;
+}
+
+.feature-image img{
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+
+.more-f-div{
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.more-fe-div{
+    padding-top: 120px;
+}
+
+.more-fe-icon i{
+    float: left;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    background: #61CD00;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 30px;
+    padding-top: 6px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.more-fe-heading{
+    float: right;
+    font-weight: 400;
+    width: 86%;
+    margin-top: 0;
+}
+
+.more-fe-description{
+    float: right;
+    width: 86%;
+    font-weight: 300;
+}
+
+.site-footer{
+    background: #171819;
+    padding: 5em 0 4em 0;
+    overflow: hidden;
+}
+
+.text{
+    float: left;
+    color: #fff;
+    font-size: 45px;
+    padding-left: 25px;
+}
+
+.text strong{
+    color: #e7f70b;
+}
+
+.contact{
+    float: left;
+    padding-left: 25px;
+}
+
+.studio{
+    float: left;
+    padding-left: 25px;
+}
+
+.my-4{
+    color: #999b97;
+}
+
+.mobile{
+    color: #afb4b4;
+}
+
+.email a{
+    text-decoration: none;
+    color: #afb4b4;
+}
+
+.email a:hover{
+    color: #e7f70b;
+}
+
+.home{
+    color: #afb4b4;
+}
